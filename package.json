@@ -1,6 +1,6 @@
 {
   "title": "RenaultRemote",
-  "description": "Renault Remote Monitor",
+  "description": "Renault Remote Monitor 2",
   "category": "Small Apps",
   "main": "app.js",
   "dependencies": {
