@@ -1,7 +1,6 @@
 
+import {Stack, TextInput,  Row,  Button,  contentView,  Page, NavigationView,  } from 'tabris';
 
-import {Button, TextView, contentView, Stack, TextInput, AlertDialog, NavigationView, Page, Action, drawer, Composite, CollectionView, ScrollView, Row} from 'tabris';
-const {ItemPicker, List} = require('tabris-decorators');
 
 const DEBUG_ON = true;
 
@@ -39,12 +38,6 @@ var debugButton = new Button({
 }).onSelect(startTimer)
   .appendTo(debugRow);
 
-
-
-var vehiclePicker = ItemPicker({
-      onItemSelect: handleVehicleSelection,
-      items: ["a","b"]
-    }).appendTo(myStack);
 
 var pageMain = new Page({title: 'Main'});
 pageMain.append(myStack);
