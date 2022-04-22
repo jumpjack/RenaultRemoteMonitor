@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="my.first.app" version="1.0.0">
-  <name>HelloWorld</name>
+<widget id="com.jumpjack.renrem" version="1.0.0">
+  <name>Renault Remote Monitor</name>
   <description>
-    A sample Tabris.js application.
+    Renault Remote Monitor
   </description>
   <author email="dev@tabrisjs.com" href="https://tabrisjs.com">
-    Tabris.js Team
+   Jumpjack
   </author>
 </widget>
