@@ -1,6 +1,6 @@
 {
-  "title": "Hello, World!",
-  "description": "Tabris.js - Hello, World!",
+  "title": "RenaultRemote",
+  "description": "Renault Remote Monitor",
   "category": "Small Apps",
   "main": "app.js",
   "dependencies": {
