@@ -207,13 +207,11 @@ var endpointPicker = ItemPicker({
     "hvac-status"
     ],
   onItemSelect : endpointHandler,
-  alignment: "centerX"
 }).appendTo(myRow);
 
 
 var versionPicker = ItemPicker({
   items: ["v1","v2"],
-  alignment: "right"
 }).appendTo(myRow);
 
 
@@ -229,7 +227,6 @@ var endpointButton = new Button({
 const scrollView = new ScrollView({
    direction : "vertical",
    layoutData: "stretchY",
-   //height : 100,
    left : 0,
    right : 0
    })
@@ -252,7 +249,6 @@ pageConfig.append(myStackSettings);
 
 
 var actSettings = new Action ({
- // placement: "overflow",
   title: "Settings"
 }).onSelect(() =>
 {
@@ -262,7 +258,7 @@ var actSettings = new Action ({
 }
 );
 
-var navView = new NavigationView({layoutData: 'stretch', drawerActionVisible: true})
+var navView = new NavigationView({layoutData: 'stretch', drawerActionVisible: false})
   .append(actSettings)
   .append(pageMain)
   .appendTo(contentView);
