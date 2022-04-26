@@ -1,6 +1,6 @@
 # Progetto derivato
 
-Derivato da  https://jumpjack/tabris-helloworld-copied per capire le impostazioni giuste.
+Derivato da  https://github.com/jumpjack/tabris-helloworld-copied per capire le impostazioni giuste.
 
 
 Tested with:
