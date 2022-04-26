@@ -3,10 +3,8 @@
   "description": "Renault Remote Monitor 2",
   "category": "Small Apps",
   "main": "app.js",
+  "type" : "module",
   "dependencies": {
     "tabris": "^3.8.0"
-  } ,
-  {
-  "type" : "module"
   }
 }
